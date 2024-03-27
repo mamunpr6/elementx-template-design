@@ -8,7 +8,6 @@
     max-width: 1480px;
     width: 100%;
     margin: 0 auto;
-    padding: 80px 0 80px 0;
 }
 .elementx-container{
     max-width: 1480px;
@@ -16,16 +15,14 @@
     margin: 0 auto;
 }
 /* header style */
-.elementx-header{
-    background-color: #000;
-    padding: 52px 0  108px 0;
-}
 .elementx-logo{
     text-align: center;
+    padding-top: 52px;
+    padding-bottom: 108px;
 }
 .elementx-logo img{
-    max-width: 203px;
-    width: 100%;
+        max-width: 100%;
+        height: auto;
 }
 /* elementx hero section */ 
 .elementx-hero-section{
@@ -74,8 +71,9 @@
     width: 100%;
 }
 
-/* struggling section */
+/* -----------struggling section---------------------- */
 .struggling-content-wrapper{
+    padding: 140px 30px 0 30px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -123,14 +121,120 @@
 
 
 
+/* --------------------large laptop responsive-------------------- */
+/* @media (max-width: 1440px){
+    .elementx-logo {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    .hero-text-wrapper h4 {
+        margin-bottom: 16px;
+    }
+    .hero-heading h1 {
+        font-size: 56px;
+    }
+.hero-button a {
+    font-size: 26px;
+    padding: 24px 30px;
+}
+} */
 
-/* mobile responsive */
+
+/* --------------------small laptop responsive-------------------- */
+@media (max-width: 1024px){
+    .elementx-logo {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .hero-text-wrapper h4 {
+        font-size: 22px;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+    .hero-heading h1 {
+        font-size: 36px;
+    }
+    .hero-button a {
+        font-size: 18px;
+        padding: 16px 18px;
+        border-radius: 10px;
+        margin-top: 25px;
+    }
+    /* struggling section */
+    .struggling-content-wrapper {
+        padding: 100px 30px 0 30px;
+        gap: 30px;
+    }
+    .struggling-heading h2 {
+        font-size: 36px;
+        line-height: 1.1;
+        margin-bottom: 30px;
+    }
+    .struggling-description p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .struggling-list-item {
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+    .struggling-list-item p {
+        font-size: 16px;
+        line-height: 1;
+    }
+    .struggling-image-wrapper img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* --------------------tablet responsive-------------------- */
+@media (max-width: 768px){
+    .elementx-logo {
+        padding-bottom: 40px;
+    }
+    .hero-text-wrapper h4 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .hero-heading h1 {
+        font-size: 36px;
+        line-height: 1;
+        margin-top: 20px;
+    }
+    .hero-button a {
+        font-size: 16px;
+        padding: 14px 18px;
+    }
+    /* struggling section */
+    .struggling-heading h2 {
+        font-size: 24px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    .struggling-description p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .struggling-list {
+        margin-top: 20px;
+    }
+    .struggling-list-item {
+        gap: 8px;
+        margin-bottom: 4px;
+    }
+    .struggling-list-item p {
+        font-size: 14px;
+        line-height: 1;
+    }
+}
+
+/* --------------------mobile responsive-------------------- */
 @media(max-width:425px){
     .container{
         padding: 20px 20px 0 20px;
-    }
-    .elementx-header {
-        padding: 0;
     }
 
     .hero-text-wrapper h4 {
@@ -151,79 +255,4 @@
     }
 }
 
-/* tablet responsive */
-@media screen and (min-width: 426px) and (max-width: 768px){
-    .elementx-header {
-        padding: 20px 0 20px 0;
-    }
-    .hero-text-wrapper h4 {
-        font-size: 24px;
-        letter-spacing: 2px;
-    }
-    .hero-heading {
-        max-width: 600px;
-    }
 
-    .hero-heading h1 {
-        font-size: 36px;
-        line-height: 1;
-        margin-top: 20px;
-    }
-    .hero-button a {
-        font-size: 16px;
-        padding: 14px 18px;
-    }
-}
-
-/* small laptop responsive */
-@media screen and (min-width: 769px) and (max-width: 1024px){
-    .elementx-header {
-        background-color: #000;
-        padding: 30px 0 20px 0;
-    }
-
-    .hero-text-wrapper h4 {
-        font-size: 22px;
-        letter-spacing: 2px;
-        margin-bottom: 20px;
-    }
-
-    .hero-heading {
-        max-width: 600px;
-        margin: 0 auto;
-    }
-
-    .hero-heading h1 {
-        font-size: 36px;
-    }
-
-    .hero-button a {
-        font-size: 18px;
-        padding: 16px 18px;
-        border-radius: 10px;
-        margin-top: 25px;
-    }
-}
-
-/* small laptop responsive */
-@media screen and (min-width: 1025px) and (max-width: 1440px){
-    .hero-text-wrapper h4 {
-        margin-bottom: 16px;
-    }
-    .elementx-header {
-        background-color: #000;
-        padding: 40px 0 60px 0;
-    }
-    .hero-heading {
-        max-width: 900px;
-    }
-    .hero-heading h1 {
-        font-size: 56px;
-    }
-
-
-.hero-button a {
-    font-size: 26px;
-    padding: 24px 30px;
-}
-}
