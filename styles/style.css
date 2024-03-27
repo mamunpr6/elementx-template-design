@@ -127,6 +127,7 @@
     align-items: center;
     justify-content: center;
     gap: 133px;
+    padding-bottom: 142px;
 }
 
 .imagine-heading{
@@ -165,6 +166,39 @@
     line-height: 28px;
     color: #595F59;
 
+}
+
+/* bridging section */
+.bridging-content-wrapper{
+    padding-bottom: 276px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 93px;
+}
+
+.bridging-heading{
+    max-width: 562px;
+}
+.bridging-heading h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 47px;
+    color: #172217;
+}
+.bridging-description{
+    max-width: 464px;
+}
+.bridging-description p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #595F59;
+    line-height: 1.5;
+}
+.bridging-image-wrapper img{
+    max-width: 100%;
+    height: auto;
 }
 
 /* membership heading */
@@ -283,6 +317,11 @@
     }
 
     /* imagine */
+    .imagine-content-wrapper {
+        padding-bottom: 100px;
+        gap: 30px;
+    }
+
     .imagine-heading h2 {
         font-size: 36px;
         line-height: 1.1;
@@ -304,6 +343,23 @@
         max-width: 100%;
         height: auto;
     }
+
+    /* bridging section */
+.bridging-content-wrapper{
+    padding-bottom: 100px;
+    gap: 30px;
+}
+
+.bridging-heading h2{
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+.bridging-description p{
+    font-size: 16px;
+    line-height: 1.5;
+}
 }
 
 /* --------------------tablet responsive-------------------- */
@@ -351,6 +407,9 @@
     }
 
     /* imagine section */
+    .imagine-content-wrapper {
+        padding-bottom: 80px;
+    }
     .imagine-heading h2 {
         font-size: 24px;
         line-height: 1.2;
@@ -371,6 +430,21 @@
         font-size: 14px;
         line-height: 1;
     }
+
+        /* bridging section */
+.bridging-content-wrapper{
+    padding-bottom: 80px;
+}
+
+.bridging-heading h2{
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.bridging-description p{
+    font-size: 14px;
+}
 }
 
 /* --------------------mobile responsive-------------------- */
@@ -406,6 +480,22 @@
             gap: 20px;
             flex-direction: column-reverse;       
         }
+    /* bridging section */
+    .bridging-content-wrapper{
+        gap: 20px;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    
+    .bridging-heading h2{
+        font-size: 24px;
+        line-height: 1.3;
+        margin-bottom: 20px;
+    }
+    
+    .bridging-description p{
+        font-size: 14px;
+    }
 }
 
 
