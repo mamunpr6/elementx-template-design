@@ -253,6 +253,12 @@
         border-radius: 25px;
         margin-top: 22px;
     }
+    /* struggling section */
+    .struggling-content-wrapper {
+        padding: 60px 0 0 0;
+        gap: 20px;
+        flex-direction: column-reverse;        
+    }
 }
 
 
