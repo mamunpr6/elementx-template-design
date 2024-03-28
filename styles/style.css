@@ -236,7 +236,7 @@
 /* membership card */
 .membership-card-wrapper {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     gap: 310px;
 }
@@ -359,11 +359,13 @@
     line-height: 1.5;
 }
 /* membership section */
+.membership-content-wrapper {
+    padding-bottom: 100px;
+}
 .membership-heading h2 {
     font-size: 36px;
     line-height: 1.1;
     margin-bottom: 30px;
-}
 }
 
 .membership-description p {
@@ -389,6 +391,7 @@
 .membership-card-description p {
     font-size: 16px;
     line-height: 1.5;
+}
 }
 
 /* --------------------tablet responsive-------------------- */
@@ -474,21 +477,34 @@
 .bridging-description p{
     font-size: 14px;
 }
-}
-
 /* membership section */
+.membership-content-wrapper {
+    padding-bottom: 80px;
+}
 .membership-card-wrapper {
     gap: 20px;
+}
+.membership-heading h2 {
+    font-size: 24px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+.membership-card-image img {
+    padding: 0px 0px 20px 0px;
 }
 .membership-card-heading h4 {
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 16px;
 }
+
 .membership-card-description p {
     font-size: 14px;
     line-height: 1.3;
 }
+}
+
+
 /* --------------------mobile responsive-------------------- */
 @media(max-width:425px){
     .container{
@@ -541,6 +557,7 @@
 /* membership section */
     .membership-card-wrapper {
         flex-direction: column;
+        align-items: center;
     }
 }
 
