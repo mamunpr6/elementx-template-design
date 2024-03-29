@@ -478,6 +478,19 @@
     color: #68B86A;
 }
 
+/* ------------------- */
+.elementx-perfect-section {
+    width: 1601px;
+    background-color: #162205;
+    /* float: right; */
+}
+
+.perfect-content-area {
+    max-width: 1110px;
+    padding: 70px;
+
+}
+
 
 
 /* --------------------small laptop responsive-------------------- */
