@@ -420,6 +420,38 @@
     color: #595F59;
 }
 
+/* addressing-section-start */
+.addressing-content-wrapper{
+    margin: 120px 0 130px 0;
+}
+.addressing-text-wrapper{
+    margin-bottom: 77px;
+}
+.addressing-heading{
+    max-width: 840px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.concern{
+    color: #FFD600;
+}
+.addressing-description{
+    max-width: 867px;
+    margin: 0 auto;
+    text-align: center;
+    color: #595F59;
+}
+/* addressing options */
+.addressing-option-heading h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 3.1;
+}
+
+.addressing-option-heading h4 span{
+    color: red;
+}
 
 
 
