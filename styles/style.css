@@ -364,8 +364,78 @@
     font-weight: 400;
     color: #595F59;
 }
+/* creativity section start */
+.creativity-content-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 122px;
+}
+.creativity-image-wrapper{
+    width: 50%;
+}
+.creativity-image-wrapper img{
+    max-width: 100%;
+    height: auto;
+}
+.creativity-text-wrapper{
+    width: 50%;
+}
+
+/* gradient button */
+.gradient-wrapper{
+    display: inline-block;
+}
+.gradient-heading{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(to right, #85CD17 0%, #fff 100%);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+/* section heading */
+.creativity-heading{
+    max-width: 498px;
+    margin: 20px 0 31px 0;
+}
+.section-heading{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.creativity-description{
+    max-width: 516px;
+}
+
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #595F59;
+}
+
+
+
+
 /* --------------------small laptop responsive-------------------- */
 @media (max-width: 1024px){
+    .section-heading{   
+        font-size: 36px;
+        line-height: 1.1;
+    }
+    .section-description{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.4;
+        color: #595F59;
+    }
+
     .elementx-logo {
         padding-top: 30px;
         padding-bottom: 50px;
@@ -540,11 +610,27 @@
     font-size: 14px;
     line-height: 1.4;
 }
+/* creativity section */
+.creativity-content-wrapper {
+    gap: 40px;
+}
+.creativity-heading {
+    max-width: 498px;
+    margin: 16px 0 20px 0;
+}
+.gradient-heading {
+    padding: 8px 16px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
 
 }
 
 /* --------------------tablet responsive-------------------- */
 @media (max-width: 768px){
+    .section-heading{   
+        font-size: 24px;
+    }
     .elementx-logo {
         padding-bottom: 40px;
     }
@@ -676,6 +762,18 @@
     line-height: 1.1;
     margin-bottom: 20px;
 }
+/* creativity section */
+.creativity-content-wrapper {
+    gap: 40px;
+    flex-direction: column;
+}
+.creativity-image-wrapper {
+    width: 100%;
+}
+.creativity-text-wrapper {
+    width: 100%;
+    padding: 0 20px 0 20px;
+}
 
 }
 
@@ -752,6 +850,10 @@
         flex-direction: column;
         gap: 20px;
         margin-top: 40px;
+    }
+    /* creativity section */
+    .creativity-content-wrapper{
+        gap: 20px;
     }
 }
 
